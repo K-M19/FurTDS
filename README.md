@@ -1,4 +1,5 @@
 # FurTDS loader
+Check Wiki here - https://github.com/K-M19/FurTDS/wiki
 
 ### Rec
 - Node: REC is only supported on executors with over 98% UNC!
