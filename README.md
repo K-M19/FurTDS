@@ -6,7 +6,36 @@
 loadstring(game:HttpGet("https://gitlab.com/Tyep42/td-stat/-/raw/main/Rec.lua"))()
 ```
 
-### Loader
+# Loader Basic
+
+```lua
+getgenv().FurTDS_Loader = {
+    -- ===== GAME MODE =====
+    _GameModes = "",
+
+    -- ===== LOADOUT =====
+    _Maps1 = "",
+    _TowersLoadout1 = {},
+    _StrategiesUrl1 = "",
+    _Modifiers1 = {},
+    -- ===== MAP OPTIONS =====
+    _VoteMaps = true,
+    _VetoMap = false,
+
+    -- ===== WEBHOOK =====
+    _WebHookUrl = "",
+
+    -- ===== GAMEPLAY =====
+    _PickupItemDrop = false,
+
+    -- ===== Show (FURTDS MONITOR STRATEGY) =====
+    _DebugUi = true
+}
+loadstring(game:HttpGet("https://gitlab.com/Tyep42/td-stat/-/raw/main/Loader.lua"))()
+```
+
+# Loader Full Setting
+
 ```lua
 getgenv().FurTDS_Loader = {
     -- ===== Lobby Seting =====
@@ -19,7 +48,6 @@ getgenv().FurTDS_Loader = {
 
     -- ===== Party MODE =====
     _Host = {}, -- Host Party {"Ussername_Host", "Username_Local1", "Username_Local2"} - Host Must have Vip Gamepass
-    _ServerID = "", -- Rejoin back Server ID if win/Lost - Not recommended for use!
 
     -- ===== LOADOUT 1 =====
     _Maps1 = "",
@@ -50,6 +78,7 @@ getgenv().FurTDS_Loader = {
     _clearEffect = true, -- Boost FPS (disable effects)
     _clearNPCs = true, -- Boost FPS (remove NPCs)
     _clearUnits = true, -- Boost FPS (remove units)
+    _Off3DRendering = false, -- Off 3D Rendering
 
     -- ===== GAMEPLAY =====
     _PickupItemDrop = false, -- Auto pickup dropped items
