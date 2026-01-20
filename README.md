@@ -28,6 +28,8 @@ getgenv().FurTDS_Loader = {
 
     -- ===== GAMEPLAY =====
     _PickupItemDrop = false,
+    _NoTimeScale = false,
+    _BackLobbyAfterMatch = 30,
 
     -- ===== Show (FURTDS MONITOR STRATEGY) =====
     _DebugUi = true
@@ -36,6 +38,7 @@ loadstring(game:HttpGet("https://gitlab.com/Tyep42/td-stat/-/raw/main/Loader.lua
 ```
 
 # Loader Full Setting
+
 
 ```lua
 getgenv().FurTDS_Loader = {
@@ -58,15 +61,15 @@ getgenv().FurTDS_Loader = {
 
     -- ===== LOADOUT 2 =====
     _Maps2 = "",
-    _TowersLoadout2 = {""},
+    _TowersLoadout2 = {},
     _StrategiesUrl2 = "",
-    _Modifiers2 = {""},
+    _Modifiers2 = {},
 
     -- ===== LOADOUT 3 =====
     _Maps3 = "",
-    _TowersLoadout3 = {""},
+    _TowersLoadout3 = {},
     _StrategiesUrl3 = "",
-    _Modifiers3 = {""},
+    _Modifiers3 = {},
 
     -- ===== MAP OPTIONS =====
     _VoteMaps = true, -- VIP Gamepass only
@@ -84,6 +87,8 @@ getgenv().FurTDS_Loader = {
     -- ===== GAMEPLAY =====
     _PickupItemDrop = false, -- Auto pickup dropped items
     _followNPCs = false, -- Follow NPCs
+    _NoTimeScale = false,
+    _BackLobbyAfterMatch = 30,
 
     -- ===== STRATEGY =====
     _DelayLoadStrategies = 1, -- Delay before loading strategy (seconds)
