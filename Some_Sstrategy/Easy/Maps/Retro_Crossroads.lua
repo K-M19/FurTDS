@@ -1,13 +1,17 @@
 --[[
+WIKI: https://github.com/K-M19/FurTDS/wiki
+
+Copy:
+
 
 getgenv().FurTDS_Loader = {
     -- ===== GAME MODE =====
-    _GameModes = "",
+    _GameModes = "Easy",
 
     -- ===== LOADOUT =====
     _Maps1 = "Retro Crossroads",
-    _TowersLoadout1 = {},
-    _StrategiesUrl1 = "",
+    _TowersLoadout1 = {"Military Base","Militant","Farm","Pyromancer","Hunter"},
+    _StrategiesUrl1 = "https://raw.githubusercontent.com/K-M19/FurTDS/refs/heads/main/Some_Sstrategy/Easy/Maps/Retro_Crossroads.lua",
     _Modifiers1 = {},
     -- ===== MAP OPTIONS =====
     _VoteMaps = true,
@@ -31,6 +35,9 @@ getgenv().FurTDS_Loader = {
     _DebugUi = true
 }
 loadstring(game:HttpGet("https://gitlab.com/Tyep42/td-stat/-/raw/main/Loader.lua"))()
+
+
+
 
 ]]
 
