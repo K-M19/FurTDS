@@ -4,43 +4,19 @@ WIKI: https://github.com/K-M19/FurTDS/wiki
 Copy:
 
 
-getgenv().FurTDS_Loader = {
-    -- ===== GAME MODE =====
-    _GameModes = "Easy",
 
-    -- ===== LOADOUT =====
+
+    _GameModes = "Easy",
     _Maps1 = "Retro Crossroads",
     _TowersLoadout1 = {"Military Base","Militant","Farm","Pyromancer","Hunter"},
-    _StrategiesUrl1 = "https://raw.githubusercontent.com/K-M19/FurTDS/refs/heads/main/Some_Sstrategy/Easy/Maps/Retro_Crossroads.lua",
-    _Modifiers1 = {},
-    -- ===== MAP OPTIONS =====
-    _VoteMaps = true,
-    _VetoMap = false,
-
-    -- ===== WEBHOOK =====
-    _WebHookUrl = "",
-
-    -- ===== PERFORMANCE SETTINGS =====
-    _clearEffect = true,
-    _clearNPCs = true,
-    _clearUnits = true,
-    _Off3DRendering = false,
-
-    -- ===== GAMEPLAY =====
-    _PickupItemDrop = false,
-    _NoTimeScale = false,
-    _BackLobbyAfterMatch = 30,
-
-    -- ===== Show (FURTDS MONITOR STRATEGY) =====
-    _DebugUi = true
-}
-loadstring(game:HttpGet("https://gitlab.com/Tyep42/td-stat/-/raw/main/Loader.lua"))()
+   
 
 
 
 
-]]
 
+]] 
+    
 PlaceTower("Military Base", -23.085, 1.000, 13.562) -- Wave: 1,56 | Vtime: 0
 VoteSkipWave(1, 39) -- Vtime: 17
 PlaceTower("Military Base", -18.455, 1.000, 13.490) -- Wave: 2,60 | Vtime: 22
