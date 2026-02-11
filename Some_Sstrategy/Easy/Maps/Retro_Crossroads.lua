@@ -39,7 +39,9 @@ loadstring(game:HttpGet("https://gitlab.com/Tyep42/td-stat/-/raw/main/Loader.lua
 
 
 
-]] PlaceTower("Military Base", -23.085, 1.000, 13.562) -- Wave: 1,56 | Vtime: 0
+]]
+
+PlaceTower("Military Base", -23.085, 1.000, 13.562) -- Wave: 1,56 | Vtime: 0
 VoteSkipWave(1, 39) -- Vtime: 17
 PlaceTower("Military Base", -18.455, 1.000, 13.490) -- Wave: 2,60 | Vtime: 22
 VoteSkipWave(2, 39) -- Vtime: 43
