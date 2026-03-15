@@ -1,0 +1,8 @@
+src/
+build/
+node_modules/
+CODE/Rec.old.1.lua
+*.bat
+*.sh
+*.py
+*.zip
