@@ -1,0 +1,9 @@
+src/
+build/
+node_modules/
+*.bat
+*.sh
+*.py
+*.zip
+*.json
+*.js
